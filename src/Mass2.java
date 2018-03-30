@@ -1,0 +1,16 @@
+public class Mass2 {
+
+public void setMass2(){
+
+    int[][] a= new int [3][3];
+    a[0][1]=1;
+    a[1][2]=2;
+
+    for(int i=0;i<a.length;i++) {
+        for (int j = 0; j < a[i].length; j++) {
+            System.out.print(a[i][j]+" ");
+        }
+    }
+    System.out.println();
+}
+}
